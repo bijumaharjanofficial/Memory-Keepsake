@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riya's Special Memories</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loading-container">
+            <div class="spinner"></div>
+            <p>Loading Riya's special memories...</p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main-content" class="hidden">
+        <header>
+            <div class="header-background">
+                <div class="purple-gradient"></div>
+                <div class="black-overlay"></div>
+            </div>
+            <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Riya" class="profile-img">
+            <h1>Riya Khadka</h1>
+            <p class="subtitle">Renuka Magar • Chettri • 22 Years • Jestha 28</p>
+            
+            <div class="nicknames" id="nicknames-container">
+                <!-- Nicknames will be populated dynamically -->
+            </div>
+            
+            <p class="tagline">"Every detail matters, because every detail is you"</p>
+        </header>
+
+        <main>
+            <section id="favorites-section">
+                <h2><i class="fas fa-heart"></i> Riya's Favorite Things</h2>
+                <div id="favorites-container" class="items-container"></div>
+                <button id="reveal-btn" class="cta-button">Discover Riya's Favorites</button>
+                <div id="completion-message" class="hidden">
+                    <div class="heartfelt-message">
+                        <h3>To My Dearest Riya,</h3>
+                        <p>I see the incredible person you are, even when you can't see it yourself. Your light shines so brightly, even on the days you feel surrounded by darkness.</p>
+                        <p>Please remember that your worth isn't measured by your mistakes or difficult days. You are a beautiful soul with so much to offer this world. The way you care for others, your strength in facing challenges, your unique perspective - these are all parts of what makes you extraordinary.</p>
+                        <p>On the days when you're hard on yourself, I want you to know: I see you, I appreciate you, and I'm here for you - always. Not because I have to be, but because I genuinely want to be.</p>
+                        <p>You are enough, just as you are. And I'll be here to remind you of that every single day.</p>
+                        <p class="signature">With all my love, always.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact-section">
+                <h2><i class="fas fa-address-book"></i> Contact Information</h2>
+                <div id="contact-container" class="items-container"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Created with <span class="heart">❤️</span> | Itahari, Nepal</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
